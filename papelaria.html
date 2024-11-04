@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeos de Papelaria</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .catalogo {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .video {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            width: 300px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .video iframe {
+            width: 100%;
+            height: 200px;
+        }
+        .descricao {
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Catálogo de Vídeos de Papelaria</h1>
+    <div class="catalogo">
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/o3i9CM6ZscM" frameborder="0" allowfullscreen></iframe>
+            <div class="descricao">
+                <h2>Vídeo 1: Como Criar Catálogo Digital e Interativo</h2>
+                <p>Aprenda a criar um catálogo digital e interativo usando ferramentas online.</p>
+            </div>
+        </div>
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/Rw6qO11Z4qI" frameborder="0" allowfullscreen></iframe>
+            <div class="descricao">
+                <h2>Vídeo 2: Catálogo Digital para Papelaria Personalizada</h2>
+                <p>Passo a passo para criar um catálogo digital para produtos de papelaria personalizada.</p>
+            </div>
+        </div>
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/bwXcZ3jrmb8" frameborder="0" allowfullscreen></iframe>
+            <div class="descricao">
+                <h2>Vídeo 3: Catálogo de Produtos Digital e Interativo</h2>
+                <p>Como criar um catálogo de produtos digital e interativo usando Canva.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
